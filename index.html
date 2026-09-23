@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="ALI & Hussainy — حكاية صحاب وأخوات وذكريات حلوة.">
+  <title>ALI & Hussainy 🫂</title>
+  <link rel="stylesheet" href="z7q_visuals.css">
+</head>
+<body>
+
+  <div id="falling-layer" aria-hidden="true"></div>
+
+  <!-- شاشة الدخول -->
+  <section id="loginScreen" class="screen login-screen">
+    <header class="topbar">
+      <div class="love-note">بحبك ي صاحبي <span>♥️🤞🏻</span></div>
+      <div class="brand">ALI <span>&</span> Hussainy</div>
+    </header>
+
+    <main class="login-card">
+      <div class="mini-icon">🫂</div>
+      <p class="eyebrow">مكان صغير لذكريات كبيرة</p>
+      <h1>مستنيك يا صاحبي ❤️</h1>
+      <p class="hint">اكتب كلمة السر ي خويا 😘</p>
+
+      <div class="password-wrap">
+        <input id="passwordInput" type="password" autocomplete="off"
+               placeholder="اكتب الباسورد..." aria-label="كلمة المرور">
+        <button id="togglePassword" class="eye-btn" type="button" aria-label="إظهار كلمة المرور">👁️</button>
+      </div>
+
+      <button id="enterBtn" class="main-btn" type="button">
+        <span>ادخل يا خويا</span> 🫂
+      </button>
+
+      <p id="errorMsg" class="error-msg"></p>
+      <div class="tiny-line">اخوات • صحاب • ذكريات • لسه الحكاية مكملة</div>
+    </main>
+  </section>
+
+  <!-- الموقع -->
+  <section id="site" class="site hidden">
+    <header class="hero">
+      <nav class="nav">
+        <div class="love-note">بحبك ي صاحبي <span>♥️🤞🏻</span></div>
+        <div class="brand">ALI <span>&</span> Hussainy</div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-badge">🫂 ذكرياتنا</div>
+        <h2>تعالى أوريك<br><strong>أجدع صاحب شوفته</strong> ♥️🤞🏻</h2>
+        <p>في ناس ليها مكان خاص كده يولا ي علوش.</p>
+        <button class="main-btn glow" data-target="friendSection">تعالى أوريك 🫵🏻❤️</button>
+      </div>
+      <div class="scroll-cue">اسحب لتحت ↓</div>
+    </header>
+
+    <main>
+      <section id="friendSection" class="section friend-section reveal">
+        <div class="section-title">
+          <span>01</span>
+          <h3>أجدع صاحب 🫂</h3>
+        </div>
+
+        <div class="friend-card">
+          <div class="friend-photo-wrap">
+            <img src="assets/xk4_portrait_a91.jpg" alt="صورة صاحبك" class="friend-photo">
+            <div class="photo-shine"></div>
+          </div>
+          <div class="friend-text">
+            <p class="small-title">للجدعنة عنوان...</p>
+            <h4>إنت يا صاحبي 🫵🏻♥️</h4>
+            <p>الصورة دي بتفكرني بيك  اخويا .</p>
+            <div class="signature">ALI & HUSSAINY ✦</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="memories" class="section memories-section reveal">
+        <div class="section-title">
+          <span>02</span>
+          <h3>تعالى أوريك صورنا 🤞🏻❣️</h3>
+        </div>
+        <p class="section-subtitle">كل صورة هنا وراها حكاية… حتى لو إحنا بس اللي فاكرينها.</p>
+
+        <div class="gallery">
+          <button class="gallery-item" data-index="0"><img src="assets/xk4_memo_01_a91.jpg" alt="ذكرى 1"></button>
+          <button class="gallery-item" data-index="1"><img src="assets/xk4_memo_02_a91.jpg" alt="ذكرى 2"></button>
+          <button class="gallery-item" data-index="2"><img src="assets/xk4_memo_03_a91.jpg" alt="ذكرى 3"></button>
+          <button class="gallery-item" data-index="3"><img src="assets/xk4_memo_04_a91.jpg" alt="ذكرى 4"></button>
+          <button class="gallery-item" data-index="4"><img src="assets/xk4_memo_05_a91.jpg" alt="ذكرى 5"></button>
+          <button class="gallery-item" data-index="5"><img src="assets/xk4_memo_06_a91.jpg" alt="ذكرى 6"></button>
+          <button class="gallery-item" data-index="6"><img src="assets/xk4_memo_07_a91.jpg" alt="ذكرى 7"></button>
+          <button class="gallery-item" data-index="7"><img src="assets/xk4_memo_08_a91.jpg" alt="ذكرى 8"></button>
+          <button class="gallery-item" data-index="8"><img src="assets/xk4_memo_09_a91.jpg" alt="ذكرى 9"></button>
+          <button class="gallery-item" data-index="9"><img src="assets/xk4_memo_10_a91.jpg" alt="ذكرى 10"></button>
+          <button class="gallery-item" data-index="10"><img src="assets/xk4_memo_11_a91.jpg" alt="ذكرى 11"></button>
+        </div>
+
+        <div class="video-title">ولقطات اتحفظت في الذاكرة 🎥</div>
+        <div class="videos">
+          <video controls playsinline preload="metadata" src="assets/xk4_clip_01_a91.mp4"></video>
+          <video controls playsinline preload="metadata" src="assets/xk4_clip_02_a91.mp4"></video>
+          <video controls playsinline preload="metadata" src="assets/xk4_clip_03_a91.mp4"></video>
+        </div>
+      </section>
+
+      <section id="letter" class="section letter-section reveal">
+        <div class="section-title">
+          <span>03</span>
+          <h3>رسالة ليك يخويا 🫵🏻❣️</h3>
+        </div>
+
+        <button id="letterBtn" class="letter-open" type="button">
+          <span class="envelope">💌</span>
+          <span>دوس هنا… في كلام من القلب</span>
+          <span class="arrow">←</span>
+        </button>
+
+        <article id="letterCard" class="letter-card">
+          <div class="letter-head">إلى أخويا وصاحبي ❤️</div>
+          <p>
+            بص ا بن خالي، انت مش قريبي وبس، انت صاحبي، ده انت أخويا ي جدع والله.
+            مش بعرف أقول كلام حلو ولا أعرف أشكر في حد، بس ع الطلاق انت الحتة الشمال 🫵🏻😘
+          </p>
+          <p>واحشني يخويا 💔🫶🏻</p>
+          <p>إن شاء الله تنزل ونقعد مع بعض زي زمان 🫶🏻💔</p>
+          <div class="letter-sign">من اخوك حسين ❤️</div>
+        </article>
+      </section>
+
+      <section class="ending">
+        <div class="ending-heart">🫂</div>
+        <h3>مهما الأيام فرقتنا…</h3>
+        <p>الذكريات دي هتفضل لينا.</p>
+        <div class="forever">ALI & HUSSAINY <span>♥</span> FOREVER</div>
+      </section>
+    </main>
+
+    <footer>صُنع بحب لصاحب غالي ♥️🤞🏻</footer>
+  </section>
+
+  <!-- عارض الصور -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="closeLightbox" class="close-lightbox" type="button">×</button>
+    <button id="prevPhoto" class="lightbox-nav prev" type="button">‹</button>
+    <img id="lightboxImage" src="" alt="صورة مكبرة">
+    <button id="nextPhoto" class="lightbox-nav next" type="button">›</button>
+  </div>
+
+  <script src="z7q_actions.js"></script>
+</body>
+      </html>
