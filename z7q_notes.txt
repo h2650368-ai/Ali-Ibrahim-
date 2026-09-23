@@ -1,0 +1,8 @@
+ALI & Hussainy - Friendship Memories Website
+
+Upload all files while keeping the assets folder.
+Main page: hussainy_memories_927_main.html
+CSS: z7q_visuals.css
+JavaScript: z7q_actions.js
+Assets are inside the assets folder.
+Password: اخوات
